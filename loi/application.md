@@ -8,6 +8,7 @@ Briefly describe the purpose of the proposal and the software project(s) it invo
 
 # Expected Value (1500 characters)
 If the proposal is successfully funded, what does success look like? We're seeking to understand: what type of capabilities the proposal is unlocking for the scientific community; how upstream and downstream software will be improved by the proposal; how the proposed work supports or implements novel functionality for AI enablement and large-scale data analysis. (1,500 characters maximum)
+
 [expected value](expectedValue.md)
 
 # Landscape Analysis (1500 characters)
