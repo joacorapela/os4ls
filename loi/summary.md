@@ -32,7 +32,7 @@ closed-loop discoveries.
 
 Ultimately, the long-term vision of this framework is the complete automation
 of hypothesis-driven scientific discovery. By routing multi-modal experimental
-datasets back to the LLM, the system leverages a vast biomedical literature
+results back to the LLM, the system leverages a vast biomedical literature
 corpus to semantically interpret results, synthesize novel mechanistic
 hypotheses, and autonomously design the next experimental iteration. The agent
 then dynamically generates the corresponding Bonsai XML workflows and
