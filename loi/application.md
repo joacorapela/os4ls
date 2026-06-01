@@ -1,7 +1,7 @@
-# Title (60 words)
+# Title ( 56 / 60 words )
 AI Agents for Accelerating Neuroscience Experimentation
 
-# Summary (3000 words)
+# Summary ( 3016 / 3000 words)
 Modern systems neuroscience requires tight, sub-millisecond synchronization
 between high-density neural acquisition hardware (Open-Ephys) and complex
 experimental environments managed by Bonsai—including multi-device hardware
@@ -47,10 +47,10 @@ paradigm for "self-driving labs" capable of exponentially accelerating the pace
 of scientific discovery across neurophysiology and broader experimental
 disciplines.
 
-# Expected Value (1500 words)
+# Expected Value ( 2 / 1500 words)
 
 
 
-# Landscape Analysis (1500 words)
+# Landscape Analysis ( 2 / 1500 words)
 
 
