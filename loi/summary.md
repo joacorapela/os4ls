@@ -1,64 +1,9 @@
-Bonsai is currently the most used open-source software for neuroscience
-experimental control. It is a visual reactive programming language that allows
-experimentalists with little or no programming training to control
-sophisticated experiments. It is used by thousands of users all around the
-world (7,000 downloads per year and 1,000 citations per year of the core Bonsai
-paper [Lopes et al., 2015]). Bonsai orchestrates a growing software and
-hardware open-source ecosystem, such as Open Ephys hardware for
-electrophysiology, Harp devices for synchronization, and the Bonsai.ML package
-allowing intelligent experimental control through real-time machine learning.
+Bonsai is the leading open-source visual reactive programming language for neuroscience experimental control, used by thousands worldwide (7,000 downloads/year; 1,000 citations/year [Lopes et al., 2015]). It orchestrates an expanding software and hardware ecosystem, including Open Ephys (electrophysiology), Harp (hardware synchronization), and Bonsai.ML (real-time machine learning). However, masterfully configuring and optimizing these interconnected components requires years of specialized experience. We propose an AI agent to automate the assembly, debugging, and optimization of complex Bonsai workflows directly from natural language prompts.
 
-Skillfully using Bonsai and the components of its ecosystem is a time-consuming
-process that requires years of experience reading documentation, attending
-courses, and participating in online forums. Optimally combining these
-components is an even harder task. Here we propose to build an AI agent that
-will automate the assembly, debugging, and optimization of Bonsai workflows
-from natural language user prompts.
+By leveraging Bonsai’s XML-based architecture and Open Ephys’s programmatic control layers, we will build an open-source Model Context Protocol (MCP) server that exposes these platforms to Large Language Models (LLMs) as an interactive runtime environment. Rather than generating static code templates, the AI agent will function as an autonomous systems engineer. Given a high-level prompt—e.g., tracking animal velocity, syncing multi-device behavioral telemetry, and triggering optogenetic feedback upon real-time neural replay detection—the agent will dynamically generate production-ready XML workflows and hardware configurations. Crucially, it will execute the pipeline in a sandboxed environment, programmatically capture runtime logs, and trace cross-device stream latencies. Using a continuous reflection loop, the agent will iteratively refactor the XML stream architecture to resolve bottlenecks, manage memory allocation, and guarantee deterministic pipeline execution. This shifts scientific software from human-operated tools to autonomous, self-optimizing ecosystems.
 
-By leveraging the XML-based architecture of Bonsai and the programmatic control
-layers of Open Ephys, we will build an open-source Model Context Protocol (MCP)
-server that exposes these platforms directly to Large Language Models (LLMs) as
-an interactive runtime environment. Rather than merely generating static code
-templates, the AI agent will function as an autonomous systems engineer. Given
-a high-level natural language prompt—such as orchestrating an environment that
-tracks animal velocity, syncs multi-device behavioral telemetry, and triggers
-targeted optogenetic feedback upon real-time neural replay detection—the agent
-will dynamically generate the complete, production-ready XML workflows and
-hardware configurations. Crucially, the agent will execute the synthesized
-pipeline within a sandboxed environment, detect workflow errors,
-programmatically capture runtime logs, and trace data-stream latencies across
-devices. Using a continuous reflection loop, the agent will iteratively
-refactor the XML stream architecture to resolve bottlenecks, manage memory
-allocation, and optimize pipeline performance for optimal execution. This
-project shifts open-source scientific software from human-operated tools to
-autonomous, self-healing, and self-optimizing ecosystems, democratizing
-cutting-edge closed-loop discoveries.
+Additionally, we will develop a native LLM node for Bonsai. This node will ingest real-time data summaries from active workflows and output LLM inferences. Instead of controlling experiments via fixed, rigid rules, it enables adaptive experimentation guided by the broad contextual information processing of an AI agent.
 
-In addition, we will add a large language model (LLM) node to Bonsai. This node
-will receive data summaries from Bonsai workflows as inputs and provide LLM
-inferences as outputs. It represents a paradigm shift in experimental control;
-instead of controlling an experiment based on fixed, predetermined rules, the
-LLM node will decide on the fate of the experiment based on
-large-contextual-information-based inferences by the AI agent.
+We will validate this node within naturalistic, long-duration, 24/7 continual Aeon experiments. Aeon datasets promise to be as transformative for neuroscience as ImageNet was for computer vision, and Bonsai serves as its core control software.
 
-We will provide detailed examples of the use of this node in naturalistic,
-long-duration, and continual Aeon experiments. Aeon experiments continuously
-record behavioral and electrophysiological data 24/7 for weeks to months. They
-are generating behavioral and electrophysiological datasets that promise to be
-as relevant for neuroscience as ImageNet has been for computer vision. Bonsai
-is the core experimental control software used in Aeon.
-
-Ultimately, the long-term vision of this framework is the complete automation
-of hypothesis-driven scientific discovery. By routing multi-modal experimental
-results back to the LLM, the system leverages a vast biomedical literature
-corpus to semantically interpret results, synthesize novel mechanistic
-hypotheses, and autonomously design the next experimental iteration. The agent
-then dynamically generates the corresponding Bonsai XML workflows and Open
-Ephys configurations, executing them via a structured human-in-the-loop
-validation safeguard. By creating a continuous, self-directed loop of automated
-experimentation, analysis, and refactoring, this ecosystem establishes a new
-paradigm for "self-driving labs" capable of exponentially accelerating the pace
-of scientific discovery across neurophysiology and broader experimental
-disciplines. While we do not aim to achieve this full long-term vision within
-the scope of this project, we intend to take the critical first steps in this
-direction.
+Our long-term vision is the complete automation of hypothesis-driven scientific discovery. By routing multi-modal results back to the LLM, the system can leverage biomedical literature to interpret data, synthesize mechanistic hypotheses, and design the next experimental iteration via a structured human-in-the-loop validation safeguard. While achieving this full closed-loop automation is beyond our current scope, this project delivers the foundational technical framework required to make self-driving neurophysiology laboratories a reality.
