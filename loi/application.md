@@ -1,54 +1,19 @@
 # Title ( 56 / 60 words )
 AI Agents for Accelerating Neuroscience Experimentation
 
-# Summary ( 3015 / 3000 words)
+# Summary ( 2860 / 3000 words)
 
 ***Briefly describe the purpose of the proposal and the software project(s) it involves.***
 
-Modern systems neuroscience requires tight, sub-millisecond synchronization
-between high-density neural acquisition hardware (Open-Ephys) and complex
-experimental environments managed by Bonsai—including multi-device hardware
-orchestration, real-time data streaming, state-machine experimental control,
-and edge machine learning inference (Bonsai.ML). Bridging these sophisticated
-software ecosystems currently demands weeks of manual software engineering,
-low-level performance tuning, and grueling troubleshooting by highly
-specialized researchers. We propose to eliminate this technical barrier by
-developing an autonomous, closed-loop AI agent framework capable of natively
-synthesizing, executing, debugging, and optimizing multi-software experimental
-architectures.
+Bonsai is the leading open-source visual reactive programming language for neuroscience experimental control, used by thousands worldwide (7,000 downloads/year; 1,000 citations/year [Lopes et al., 2015]). It orchestrates an expanding software and hardware ecosystem, including Open Ephys (electrophysiology), Harp (hardware synchronization), and Bonsai.ML (real-time machine learning). However, masterfully configuring and optimizing these interconnected components requires years of specialized experience. We propose an AI agent to automate the assembly, debugging, and optimization of complex Bonsai workflows directly from natural language prompts.
 
-By leveraging the declarative, XML-based reactive architecture of Bonsai and
-the programmatic control layers of Open-Ephys, we will build an open-source
-Model Context Protocol (MCP) server that exposes these platforms directly to
-Large Language Models (LLMs) as an interactive runtime environment. Rather than
-merely generating static code templates, the AI agent will function as an
-autonomous systems engineer. Given a high-level natural language prompt—such as
-orchestrating an environment that tracks animal velocity, syncs multi-device
-behavioral telemetry, and triggers targeted optogenetic feedback upon real-time
-neural replay detection—the agent will dynamically generate the complete,
-production-ready XML workflows and hardware configurations. Crucially, the
-agent will execute the synthesized pipeline within a sandboxed environment,
-programmatically capture runtime logs, trace data-stream latencies across
-devices, and isolate compiler or hardware-handshake errors. Using a continuous
-reflection loop, the agent will iteratively refactor the XML stream
-architecture to resolve bottlenecks, manage memory allocation, and optimize
-pipeline performance for deterministic execution. This project shifts
-open-source scientific software from human-operated tools to autonomous,
-self-healing, and self-optimizing ecosystems, democratizing cutting-edge
-closed-loop discoveries.
+By leveraging Bonsai’s XML-based architecture and Open Ephys’s programmatic control layers, we will build an open-source Model Context Protocol (MCP) server that exposes these platforms to Large Language Models (LLMs) as an interactive runtime environment. Rather than generating static code templates, the AI agent will function as an autonomous systems engineer. Given a high-level prompt—e.g., tracking animal velocity, syncing multi-device behavioral telemetry, and triggering optogenetic feedback upon real-time neural replay detection—the agent will dynamically generate production-ready XML workflows and hardware configurations. Crucially, it will execute the pipeline in a sandboxed environment, programmatically capture runtime logs, and trace cross-device stream latencies. Using a continuous reflection loop, the agent will iteratively refactor the XML stream architecture to resolve bottlenecks, manage memory allocation, and guarantee deterministic pipeline execution. This shifts scientific software from human-operated tools to autonomous, self-optimizing ecosystems.
 
-Ultimately, the long-term vision of this framework is the complete automation
-of hypothesis-driven scientific discovery. By routing multi-modal experimental
-results back to the LLM, the system leverages a vast biomedical literature
-corpus to semantically interpret results, synthesize novel mechanistic
-hypotheses, and autonomously design the next experimental iteration. The agent
-then dynamically generates the corresponding Bonsai XML workflows and
-Open-Ephys configurations, executing them via a structured human-in-the-loop
-validation safeguard. By creating a continuous, self-directed loop of automated
-experimentation, analysis, and refactoring, this ecosystem establishes a new
-paradigm for "self-driving labs" capable of exponentially accelerating the pace
-of scientific discovery across neurophysiology and broader experimental
-disciplines.
+Additionally, we will develop a native LLM node for Bonsai. This node will ingest real-time data summaries from active workflows and output LLM inferences. Instead of controlling experiments via fixed, rigid rules, it enables adaptive experimentation guided by the broad contextual information processing of an AI agent.
+
+We will validate this node within naturalistic, long-duration, 24/7 continual Aeon experiments. Aeon datasets promise to be as transformative for neuroscience as ImageNet was for computer vision, and Bonsai serves as its core control software.
+
+Our long-term vision is the complete automation of hypothesis-driven scientific discovery. By routing multi-modal results back to the LLM, the system can leverage biomedical literature to interpret data, synthesize mechanistic hypotheses, and design the next experimental iteration via a structured human-in-the-loop validation safeguard. While achieving this full closed-loop automation is beyond our current scope, this project delivers the foundational technical framework required to make self-driving neurophysiology laboratories a reality.
 
 # Expected Value ( 1401 / 1500 words)
 
