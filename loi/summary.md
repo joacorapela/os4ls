@@ -36,10 +36,10 @@ cutting-edge closed-loop discoveries.
 
 In addition, we will add a large language model (LLM) node to Bonsai. This node
 will receive data summaries from Bonsai workflows as inputs and provide LLM
-inferences as outputs. This node represents a paradigm shift in experimental
-control; instead of controlling an experiment based on fixed, predetermined
-rules, it will allow researchers to decide on the fate of the experiment based
-on large-contextual-information-based inferences by the AI agent.
+inferences as outputs. It represents a paradigm shift in experimental control;
+instead of controlling an experiment based on fixed, predetermined rules, the
+LLM node will decide on the fate of the experiment based on
+large-contextual-information-based inferences by the AI agent.
 
 We will provide detailed examples of the use of this node in naturalistic,
 long-duration, and continual Aeon experiments. Aeon experiments continuously
