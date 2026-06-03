@@ -1,7 +1,7 @@
 # Title ( 56 / 60 words )
 AI Agents for Accelerating Neuroscience Experimentation
 
-# Summary ( 2860 / 3000 words)
+# Summary ( 2864 / 3000 words)
 
 ***Briefly describe the purpose of the proposal and the software project(s) it involves.***
 
@@ -13,7 +13,7 @@ Additionally, we will develop a native LLM node for Bonsai. This node will inges
 
 We will validate this node within naturalistic, long-duration, 24/7 continual Aeon experiments. Aeon datasets promise to be as transformative for neuroscience as ImageNet was for computer vision, and Bonsai serves as its core control software.
 
-Our long-term vision is the complete automation of hypothesis-driven scientific discovery. By routing multi-modal results back to the LLM, the system can leverage biomedical literature to interpret data, synthesize mechanistic hypotheses, and design the next experimental iteration via a structured human-in-the-loop validation safeguard. While achieving this full closed-loop automation is beyond our current scope, this project delivers the foundational technical framework required to make self-driving neurophysiology laboratories a reality.
+Our long-term vision is the complete automation of hypothesis-driven scientific discovery. By routing multi-modal results back to the LLM, the system can leverage biomedical literature to interpret data, synthesize mechanistic hypotheses, design and run the next experimental iteration via a structured human-in-the-loop validation safeguard. While achieving this full closed-loop automation is beyond our current scope, this project delivers the foundational technical framework required to make self-driving neurophysiology laboratories a reality.
 
 # Expected Value ( 1401 / 1500 words)
 
