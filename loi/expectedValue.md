@@ -1,13 +1,17 @@
-If funded, this project democratizes advanced design, allowing Bonsai users to
-translate natural language into optimized workflows in minutes. Offloading
-systems engineering to an autonomous loop enables researchers to scale assay
-complexity without manual bottlenecks, timing delays, or memory glitches.
+If funded, this project democratizes advanced experimental control, allowing
+Bonsai users to translate natural language into optimized workflows in minutes.
+Offloading systems engineering to an autonomous loop enables researchers to
+scale assay complexity without manual bottlenecks, timing delays, or memory
+glitches.
 
-Ecosystem Impact: The Bonsai MCP server drives adoption across the ecosystem
-(Open Ephys, Harp, UCLA Miniscope, DeepLabCut) and is transformative for
-Bonsai.ML. It bridges the expertise gap for users who lack specialized ML
-training to integrate or parameterize complex models, directly automating
-optimal setup and real-time tuning.
+Contributions to the Bonsai ecosystem and Bonsai.ML: The Bonsai MCP server will
+boost the complete Bonsai ecosystem (e.g., Open Ephys, Harp, UCLA
+Miniscope, Neurophotometrics, BonVision, DeepLabCut), with a especial impact on
+real-time machine learning via Bonsai.ML. Most Bonsai users lack the machine
+learning expertise to seamlessly integrate ML models into their rigs
+or optimally tune their parameters. The Bonsai MCP server lowers this barrier
+by clearly demonstrating how Bonsai.ML packages can elevate specific workflows
+and directly assisting users with optimal model parameterization.
 
 AI Enablement: An AI agent in the loop can assume parametric control over
 experiments. By monitoring live environments and cross-referencing inferences
@@ -17,8 +21,3 @@ trajectories. While autonomous loops are revolutionizing materials science
 this paradigm has not been applied to neuroscience. This platform may
 demonstrate that AI-driven optimization can surpass rigid, human-designed
 rules.
-
-Vision: We aim for automated, hypothesis-driven discovery. Routing multi-modal
-results to an LLM leverages biomedical literature to interpret data, synthesize
-hypotheses, design and run the next iteration via human-in-the-loop safeguards,
-making self-driving neuroscience a reality.
