@@ -1,16 +1,17 @@
 Bonsai is the leading open-source visual reactive programming language for
-neuroscience experimental control, used by thousands worldwide (7,000
-downloads/year; 1,000 citations/year [Lopes et al., 2015]). Scientists mainly
-know procedural, interpreted programming languages, but these are not
-well-suited to real-time processing of multimodal data streams. Bonsai solves
-this problem by giving users a visual entry point to a functional, compiled
-programming language that interfaces with a broad hardware and software
-ecosystem for neuroscience experimental control, including Open Ephys
-(electrophysiology hardware), Harp (hardware synchronization, and Bonsai.ML
-(real-time ML). But as workflows grow in complexity, they become hard for
-scientists to build and maintain. We propose an AI agent to automate the
-assembly, debugging, and optimization of complex Bonsai workflows directly from
-natural language prompts.
+neuroscience experimental control, supporting thousands of researchers globally
+with over 7,000 downloads and 1,000 citations annually [Lopes et al., 2015].
+While conventional procedural, interpreted languages struggle with the
+real-time processing of high-bandwidth, multimodal data streams, Bonsai solves
+this problem by providing an intuitive visual interface to a functional,
+compiled environment. This unique architecture seamlessly coordinates a vast
+hardware and software ecosystem, including Open Ephys (electrophysiology), Harp
+(microsecond-precision synchronization), and Bonsai.ML (real-time machine
+learning). However, as experimental workflows scale in complexity, constructing
+and maintaining these graphical pipelines becomes a significant engineering
+bottleneck for scientists. To eliminate this barrier, we propose an AI agent
+architecture designed to automate the assembly, debugging, and optimization of
+complex Bonsai workflows directly from natural language prompts.
 
 By leveraging Bonsai’s XML-based architecture and Open Ephys’s programmatic
 control layers, we will build an open-source Model Context Protocol (MCP)
