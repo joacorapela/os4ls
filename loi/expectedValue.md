@@ -1,23 +1,10 @@
-If funded, this project democratizes advanced experimental control, allowing
-Bonsai users to translate natural language into optimized workflows in minutes.
-Offloading systems engineering to an autonomous loop enables researchers to
-scale assay complexity without manual bottlenecks, timing delays, or memory
-glitches.
+Success means:
 
-Contributions to the Bonsai ecosystem and Bonsai.ML: The Bonsai MCP server will
-boost the complete Bonsai ecosystem (e.g., Open Ephys, Harp, UCLA
-Miniscope, Neurophotometrics, BonVision, DeepLabCut), with a especial impact on
-real-time machine learning via Bonsai.ML. Most Bonsai users lack the machine
-learning expertise to seamlessly integrate ML models into their rigs
-or optimally tune their parameters. The Bonsai MCP server lowers this barrier
-by clearly demonstrating how Bonsai.ML packages can elevate specific workflows
-and directly assisting users with optimal model parameterization.
+1. Allowing users of the whole Bonsai ecosystem (e.g., Open Ephys, Harp,UCLA Miniscope, Neurophotometrics, BonVision, DeepLabCut) to much more easily and quickly build correct and highly-optimised sophisticated experimental rigs.
+2. Observing that Bonsai LLM nodes are widely used in workflows around the world and that they are generating types of AI-driven experimentation that would have been impossible to build with traditional hard-coded-rule-based experimental-control methods, and that these experiments produce ground-breaking research findings.
+3. A large increase in adoption of Bonsai and its ecosystem by the experimental neuroscience community all over the world. LLM speak all languages and adapt to different user subgroups. Bonsai documentation is mostly written in English and targeted to experimentalists. Adding the MCP server will make Bonsai accessible to all languages and population subgroups.
+4. In particular, a large increase in the (proper) use of ML functionality from the Bonsai.ML package in workflows, and that this use generates unprecedented scientific knowledge.
+5. Realising that AI-driven experimental control is superior to hard-coded-rules traditional one.
+6. Seeing the emergence of self-driving experimental control in neuroscience. Note that AI are already revolutionizing materials science (A-Lab), chemical synthesis (RoboRXN), and synthetic biology (Biofoundries), but that this paradigm has not been applied to neuroscience.
 
-AI Enablement: An AI agent in the loop can assume parametric control over
-experiments. By monitoring live environments and cross-referencing inferences
-from its knowledge base, the system discovers optimal experimental
-trajectories. While autonomous loops are revolutionizing materials science
-(A-Lab), chemical synthesis (RoboRXN), and synthetic biology (Biofoundries),
-this paradigm has not been applied to neuroscience. This platform may
-demonstrate that AI-driven optimization can surpass rigid, human-designed
-rules.
+
