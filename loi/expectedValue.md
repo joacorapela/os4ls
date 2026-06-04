@@ -22,8 +22,8 @@ Success means:
    control optimization yields fundamentally more informative experiments than
    rigid, human-designed, rule-based control.
 
-6. Pioneering Self-Driving Labs: Realizing the first platform for fully
-   autonomous experimental loops in neuroscience, migrating a paradigm that is
-   already revolutionizing other fields of experimentation but has not yet been
-   applied to this domain.
-
+6. Pioneering Self-Driving Neurophysiology Labs: Realizing the first
+   foundational platform for fully autonomous experimental loops in
+   neuroscience, successfully migrating a paradigm that is already
+   revolutionizing materials science (A-Lab), chemical synthesis (RoboRXN), and
+   synthetic biology (Biofoundries).
