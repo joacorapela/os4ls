@@ -1,7 +1,7 @@
 # Title ( 56 / 60 words )
 AI Agents for Transforming Neuroscience Experimentation
 
-# Summary ( 3652 / 3000 words)
+# Summary ( 3615 / 3000 words)
 
 ***Briefly describe the purpose of the proposal and the software project(s) it involves.***
 
@@ -12,12 +12,11 @@ know procedural, interpreted programming languages, but these are not
 well-suited to real-time processing of multimodal data streams. Bonsai solves
 this problem by giving users a visual entry point to a functional, compiled
 programming language that interfaces with a broad hardware and software
-ecosystem for neuroscience experimental control, including Open Ephys
-(electrophysiology hardware), Harp (hardware synchronization, and Bonsai.ML
-(real-time ML). But as workflows grow in complexity, they become hard for
-scientists to build and maintain. We propose an AI agent to automate the
-assembly, debugging, and optimization of complex Bonsai workflows directly from
-natural language prompts.
+ecosystem, including Open Ephys (electrophysiology hardware), Harp (hardware
+synchronization), and Bonsai.ML (real-time ML). But as workflows grow in
+complexity, they become hard for scientists to build and maintain. We propose
+an AI agent to automate the assembly, debugging, and optimization of complex
+Bonsai workflows directly from natural language prompts.
 
 By leveraging Bonsai’s XML-based architecture and Open Ephys’s programmatic
 control layers, we will build an open-source Model Context Protocol (MCP)
