@@ -1,12 +1,16 @@
 Bonsai is the leading open-source visual reactive programming language for
 neuroscience experimental control, used by thousands worldwide (7,000
-downloads/year; 1,000 citations/year [Lopes et al., 2015]). It orchestrates an
-expanding software and hardware ecosystem, including Open Ephys
-(electrophysiology), Harp (hardware synchronization), and Bonsai.ML (real-time
-machine learning). However, masterfully configuring and optimizing these
-interconnected components requires years of specialized experience. We propose
-an AI agent to automate the assembly, debugging, and optimization of complex
-Bonsai workflows directly from natural language prompts.
+downloads/year; 1,000 citations/year [Lopes et al., 2015]). Scientists mainly
+know procedural, interpreted programming languages, but these are not
+well-suited to real-time processing of multimodal data streams. Bonsai solves
+this problem by giving users a visual entry point to a functional, compiled
+programming language that interfaces with a broad hardware and software
+ecosystem for neuroscience experimental control, including Open Ephys
+(electrophysiology hardware), Harp (hardware synchronization, and Bonsai.ML
+(real-time ML). But as workflows grow in complexity, they become hard for
+scientists to build and maintain. We propose an AI agent to automate the
+assembly, debugging, and optimization of complex Bonsai workflows directly from
+natural language prompts.
 
 By leveraging Bonsai’s XML-based architecture and Open Ephys’s programmatic
 control layers, we will build an open-source Model Context Protocol (MCP)
@@ -50,5 +54,5 @@ Team: Joaquin Rapela (engineer research fellow at the Gatsby Unit and creator
 of Bonsai.ML) will lead the implementation of the project, in direct
 consultation with Goncalo Lopes (author of Bonsai), and collaborating with
 experimental scientists at the Sainsbury Wellcome Centre and at Allen Institute
-for Neural Dynamics (Josh Siegle), to validate in experimental rigs the MCP
+for Neural Dynamics (e.g., Josh Siegle), to validate in experimental rigs the MCP
 server and the Bonsai LLM node.
