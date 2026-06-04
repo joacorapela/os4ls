@@ -1,5 +1,5 @@
 # Title ( 56 / 60 words )
-AI Agents for Accelerating Neuroscience Experimentation
+AI Agents for Transforming Neuroscience Experimentation
 
 # Summary ( 3381 / 3000 words)
 
