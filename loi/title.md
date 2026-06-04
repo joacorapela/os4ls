@@ -1,1 +1,1 @@
-AI Agents for Accelerating Neuroscience Experimentation
+AI Agents for Transforming Neuroscience Experimentation
