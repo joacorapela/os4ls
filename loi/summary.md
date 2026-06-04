@@ -1,7 +1,42 @@
-Bonsai is the leading open-source visual reactive programming language for neuroscience experimental control, used by thousands worldwide (7,000 downloads/year; 1,000 citations/year [Lopes et al., 2015]). It orchestrates an expanding software and hardware ecosystem, including Open Ephys (electrophysiology), Harp (hardware synchronization), and Bonsai.ML (real-time machine learning). However, masterfully configuring and optimizing these interconnected components requires years of specialized experience. We propose an AI agent to automate the assembly, debugging, and optimization of complex Bonsai workflows directly from natural language prompts.
+Bonsai is the leading open-source visual reactive programming language for
+neuroscience experimental control, used by thousands worldwide (7,000
+downloads/year; 1,000 citations/year [Lopes et al., 2015]). It orchestrates an
+expanding software and hardware ecosystem, including Open Ephys
+(electrophysiology), Harp (hardware synchronization), and Bonsai.ML (real-time
+machine learning). However, masterfully configuring and optimizing these
+interconnected components requires years of specialized experience. We propose
+an AI agent to automate the assembly, debugging, and optimization of complex
+Bonsai workflows directly from natural language prompts.
 
-By leveraging Bonsai’s XML-based architecture and Open Ephys’s programmatic control layers, we will build an open-source Model Context Protocol (MCP) server that exposes these platforms to Large Language Models (LLMs) as an interactive runtime environment. Rather than generating static code templates, the AI agent will function as an autonomous systems engineer. Given a high-level prompt—e.g., tracking animal velocity, syncing multi-device behavioral telemetry, and triggering optogenetic feedback upon real-time neural replay detection—the agent will dynamically generate production-ready XML workflows and hardware configurations. Crucially, it will execute the pipeline in a sandboxed environment, programmatically capture runtime logs, and trace cross-device stream latencies. Using a continuous reflection loop, the agent will iteratively refactor the XML stream architecture to resolve bottlenecks, manage memory allocation, and guarantee deterministic pipeline execution. This shifts scientific software from human-operated tools to autonomous, self-optimizing ecosystems.
+By leveraging Bonsai’s XML-based architecture and Open Ephys’s programmatic
+control layers, we will build an open-source Model Context Protocol (MCP)
+server that exposes these platforms to Large Language Models (LLMs) as an
+interactive runtime environment. Rather than generating static code templates,
+the AI agent will function as an autonomous systems engineer. Given
+a high-level prompt—e.g., tracking animal velocity, syncing multi-device
+behavioral telemetry, and triggering optogenetic feedback upon real-time neural
+replay detection—the agent will dynamically generate production-ready XML
+workflows and hardware configurations. Crucially, it will execute the pipeline
+in a sandboxed environment, programmatically capture runtime logs, and trace
+cross-device stream latencies. Using a continuous reflection loop, the agent
+will iteratively refactor the XML stream architecture to resolve bottlenecks,
+manage memory allocation, and guarantee deterministic pipeline execution. This
+shifts scientific software from human-operated tools to autonomous,
+self-optimizing ecosystems.
 
-Additionally, we will develop a native LLM node for Bonsai. This node will ingest real-time data summaries from active workflows and output LLM inferences. Instead of controlling experiments via fixed, rigid rules, it enables adaptive experimentation guided by the broad contextual information processing of an AI agent.
+Additionally, we will develop a native LLM node for Bonsai. This node will
+ingest real-time data summaries from active workflows and output LLM
+inferences. Instead of controlling experiments via fixed, rigid rules, it
+enables adaptive experimentation guided by the broad contextual information
+processing of an AI agent.
 
-We will validate this node within naturalistic, long-duration, 24/7 continual Aeon experiments. Aeon datasets promise to be as transformative for neuroscience as ImageNet was for computer vision, and Bonsai serves as its core control software.
+We will validate this node within naturalistic, long-duration, 24/7 continual
+Aeon experiments. Aeon datasets promise to be as transformative for
+neuroscience as ImageNet was for computer vision, and Bonsai serves as its core
+control software.
+
+This projected will be implemented by Joaquin Rapela (creator of Bonsai.ML) in
+direct consultation with Goncalo Lopes (author of Bonsai), and collaborating
+with the Aeon team, with experimental scientists at the Sainsbury Wellcome
+Centre and Allen Institute for Neural Dynamics (Josh Siegle) to validate in
+experimental rigs the MCP server and Bonsai LLM node.
