@@ -65,13 +65,13 @@ experimental scientists at the Sainsbury Wellcome Centre and at Allen Institute
 for Neural Dynamics (e.g., Josh Siegle), to validate in experimental rigs the MCP
 server and the Bonsai LLM node.
 
-# Expected Value ( 1425 / 1500 words)
+# Expected Value ( 1431 / 1500 words)
 
 ***If the proposal is successfully funded, what does success look like? We're seeking to understand: what type of capabilities the proposal is unlocking for the scientific community; how upstream and downstream software will be improved by the proposal; how the proposed work supports or implements novel functionality for AI enablement and large-scale data analysis.***
 
 Success means:
 
-- Speeding and Improving Bonsai Experimentation: Enabling users of the entire Bonsai ecosystem (e.g., Open Ephys, Harp, UCLA Miniscope, Neurophotometrics, BonVision, DeepLabCut) to easily, quickly build correct, highly-optimized experimental rigs.
+- Speeding and Improving Bonsai Experimentation: Enabling users of the entire Bonsai ecosystem (e.g., Open Ephys, Harp, UCLA Miniscope, Neurophotometrics, BonVision, DeepLabCut) to easily and quickly build correct and highly-optimized experimental rigs.
 
 - Enabling Contextual Experimentation: Observing global adoption of native Bonsai LLM nodes to drive adaptive, closed-loop workflows—unlocking discovery paradigms impossible via hard-coded rules.
 
