@@ -1,6 +1,6 @@
 Success means:
 
-- Speeding and Improving Bonsai Experimentation: Enabling users of the entire Bonsai ecosystem (e.g., Open Ephys, Harp, UCLA Miniscope, Neurophotometrics, BonVision, DeepLabCut) to easily, quickly build correct, highly-optimized experimental rigs.
+- Speeding and Improving Bonsai Experimentation: Enabling users of the entire Bonsai ecosystem (e.g., Open Ephys, Harp, UCLA Miniscope, Neurophotometrics, BonVision, DeepLabCut) to easily and quickly build correct and highly-optimized experimental rigs.
 
 - Enabling Contextual Experimentation: Observing global adoption of native Bonsai LLM nodes to drive adaptive, closed-loop workflows—unlocking discovery paradigms impossible via hard-coded rules.
 
