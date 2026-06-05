@@ -99,29 +99,28 @@ Success means:
    revolutionizing materials science (A-Lab), chemical synthesis (RoboRXN), and
    synthetic biology (Biofoundries).
 
-# Landscape Analysis ( 1646 / 1500 words)
+# Landscape Analysis ( 1450 / 1500 words)
 
 ***We are looking for proposals from software projects with demonstrated traction and adoption. Briefly describe other software tools that the audience for this proposal primarily uses (including proprietary alternatives, if they exist), and how the software project(s) in your proposal compare in terms of user base, adoption, functionality, and maturity relative to their target audience. You can add indicators of adoption and usage as needed. Please indicate if the software is used in AI applications and workflows.***
 
-The large field of technologies serving experimental control and behaviour monitoring is
-traditionally occupied either by domain-specific graphical user interfaces for control and recording
-of specific devices and experiment types (e.g. Open Ephys GUI , Miniscope DAQ Software) or by
-real-time control frameworks for specifying task logic using state machine or similar formalisms
-(e.g. NIMH ML , pyControl , Autopilot , Sanworks).
+The experimental control and behavioral monitoring landscape is divided between
+domain-specific graphical interfaces for dedicated hardware (e.g., Open Ephys
+GUI, Miniscope DAQ) and real-time state-machine frameworks (e.g., NIMH ML,
+pyControl, Autopilot, Sanworks). While comfortable within their specific
+scopes, these tools become unwieldy when incorporating new hardware or novel
+task variations. Researchers also use general programming languages like Python
+or MATLAB, but the resulting custom code is often difficult to maintain and
+scale. Proprietary platforms like LabVIEW offer flexible visual composition,
+but their fine-grained, heterogeneous elements require complex logical
+structures for basic control tasks; additionally, LabVIEW is costly and
+closed-source.
 
-These dedicated interfaces are typically very comfortable for experimenters in the specific domain
-for which the tool is designed, but can become unwieldy with the introduction of a new device or
-task variation from outside their usual scope. Alternatively, one can use a more general
-programming language such as Python or MATLAB, with the disadvantage of the code being harder
-to understand, maintain, and change.
-
-Programming languages like LabVIEW straddle the middle ground and provide a high-level, flexible
-visual interface for composing data acquisition and control systems. Unlike Bonsai, however, the
-graphical elements of Lab-VIEW are heterogeneous and very fine grained, thus requiring long and
-complex logical structures to implement even a simple experimental control system. LabVIEW is
-not free nor open source.
-
-By providing an extremely simple, yet fl�exible visual syntax, Bonsai provides the opportunity for
-even complete non-programmers to design and successfully customise relatively complex
-experiments from the ground up. It is this capability in particular which has made Bonsai such an
-attractive standard tool in experimental neuroscience. In addition, Bonsai is free and open source.
+Bonsai disrupts this landscape by offering a highly flexible, simple visual
+syntax that allows non-programmers to rapidly develop and customize complex
+experiments from scratch. This unique accessibility has made Bonsai a mature,
+open-source standard with deep adoption across experimental neuroscience.
+Crucially, while modern AI applications in the life sciences (e.g., OpenAI’s
+GPT-Rosalind, Claude Life Sciences, IBL AI Agent) focus heavily on downstream
+data analysis, drug discovery, and genomics pipelines, Bonsai will be the first
+experimental-control software to directly integrate AI agentic technology into
+real-time behavioral and neurophysiological workflows.
