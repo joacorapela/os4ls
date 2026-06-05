@@ -1,8 +1,9 @@
 Success means:
 
-1. Unlocking Advanced System Integration: Enabling users across the ecosystem
-   (e.g., Open Ephys, Harp, UCLA Miniscope, DeepLabCut) to rapidly construct
-   correct and optimized sophisticated experiments.
+1. Speeding and Improving Bonsai Experimentation: Allowing users of the whole
+   Bonsai ecosystem (e.g., Open Ephys, Harp, UCLA Miniscope, Neurophotometrics,
+   BonVision, DeepLabCut) to much more easily and quickly build correct and
+   highly-optimized sophisticated experimental rigs.
 
 2. Enabling Contextual Experimentation: Observing global adoption of native
    Bonsai LLM nodes to drive adaptive, closed-loop workflows—unlocking
