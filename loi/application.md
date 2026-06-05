@@ -65,23 +65,23 @@ experimental scientists at the Sainsbury Wellcome Centre and at Allen Institute
 for Neural Dynamics (e.g., Josh Siegle), to validate in experimental rigs the MCP
 server and the Bonsai LLM node.
 
-# Expected Value ( 1413 / 1500 words)
+# Expected Value ( 1425 / 1500 words)
 
 ***If the proposal is successfully funded, what does success look like? We're seeking to understand: what type of capabilities the proposal is unlocking for the scientific community; how upstream and downstream software will be improved by the proposal; how the proposed work supports or implements novel functionality for AI enablement and large-scale data analysis.***
 
 Success means:
 
-Speeding and Improving Bonsai Experimentation: Enabling users of the entire Bonsai ecosystem (e.g., Open Ephys, Harp, UCLA Miniscope, Neurophotometrics, BonVision, DeepLabCut) to easily, quickly build correct, highly-optimized experimental rigs.
+- Speeding and Improving Bonsai Experimentation: Enabling users of the entire Bonsai ecosystem (e.g., Open Ephys, Harp, UCLA Miniscope, Neurophotometrics, BonVision, DeepLabCut) to easily, quickly build correct, highly-optimized experimental rigs.
 
-Enabling Contextual Experimentation: Observing global adoption of native Bonsai LLM nodes to drive adaptive, closed-loop workflows—unlocking discovery paradigms impossible via hard-coded rules.
+- Enabling Contextual Experimentation: Observing global adoption of native Bonsai LLM nodes to drive adaptive, closed-loop workflows—unlocking discovery paradigms impossible via hard-coded rules.
 
-Global Democratization: Expanding international adoption. While static documentation is English-centric, LLM-driven interfaces natively adapt to all languages and skill levels, removing barriers for diverse research groups.
+- Global Democratization: Expanding international adoption. While static documentation is English-centric, LLM-driven interfaces natively adapt to all languages and skill levels, removing barriers for diverse research groups.
 
-Elevating Real-Time Machine Learning: Driving widespread, proper use of the Bonsai.ML package, allowing non-experts to confidently integrate and parameterize complex ML models to generate unprecedented scientific knowledge.
+- Elevating Real-Time Machine Learning: Driving widespread, proper use of the Bonsai.ML package, allowing non-experts to confidently integrate and parameterize complex ML models to generate unprecedented scientific knowledge.
 
-Demonstrating AI Superiority: Proving that real-time, AI-driven experimental control optimization yields fundamentally more informative experiments than rigid, human-designed, rule-based control.
+- Demonstrating AI Superiority: Proving that real-time, AI-driven experimental control optimization yields fundamentally more informative experiments than rigid, human-designed, rule-based control.
 
-Pioneering Self-Driving Neurophysiology Labs: Realizing the first foundational platform for fully autonomous experimental loops in neuroscience, successfully migrating a paradigm that is already revolutionizing materials science (A-Lab), chemical synthesis (RoboRXN), and synthetic biology (Biofoundries).
+- Pioneering Self-Driving Neurophysiology Labs: Realizing the first foundational platform for fully autonomous experimental loops in neuroscience, successfully migrating a paradigm that is already revolutionizing materials science (A-Lab), chemical synthesis (RoboRXN), and synthetic biology (Biofoundries).
 
 # Landscape Analysis ( 1450 / 1500 words)
 
