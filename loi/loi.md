@@ -51,7 +51,7 @@ collaborating with scientists at the Sainsbury Wellcome Centre and Allen
 Institute for Neural Dynamics (e.g., Josh Siegle) to validate the MCP server
 and LLM node in live experimental rigs.
 
-# Expected Value ( 1127 / 1500 words)
+# Expected Value ( 1169 / 1500 words)
 
 ***If the proposal is successfully funded, what does success look like? We're seeking to understand: what type of capabilities the proposal is unlocking for the scientific community; how upstream and downstream software will be improved by the proposal; how the proposed work supports or implements novel functionality for AI enablement and large-scale data analysis.***
 
@@ -65,7 +65,9 @@ Success means:
 
 4. Elevating Real-Time Machine Learning: Driving widespread, proper use of the Bonsai.ML package, allowing non-experts to confidently integrate and parameterize complex ML models to generate unprecedented scientific knowledge.
 
-5. Demonstrating AI Superiority: Proving that real-time, AI-driven experimental control optimization yields fundamentally more informative experiments than rigid, human-designed, rule-based control.
+5. Validating AI-Driven Workflows: Providing initial proof-of-concept evidence that integrating real-time AI optimization into Bonsai workflows yields measurably more responsive and informative experiments than traditional static designs.
+
+
 
 # Landscape Analysis ( 1450 / 1500 words)
 
