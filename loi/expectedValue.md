@@ -8,4 +8,6 @@ Success means:
 
 4. Elevating Real-Time Machine Learning: Driving widespread, proper use of the Bonsai.ML package, allowing non-experts to confidently integrate and parameterize complex ML models to generate unprecedented scientific knowledge.
 
-5. Demonstrating AI Superiority: Proving that real-time, AI-driven experimental control optimization yields fundamentally more informative experiments than rigid, human-designed, rule-based control.
+5. Validating AI-Driven Workflows: Providing initial proof-of-concept evidence that integrating real-time AI optimization into Bonsai workflows yields measurably more responsive and informative experiments than traditional static designs.
+
+
