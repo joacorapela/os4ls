@@ -10,4 +10,4 @@ If successfully funded, success will look like:
 
 5. Elevating Real-Time Machine Learning: Driving widespread use of Bonsai.ML, allowing non-experts to confidently integrate complex ML models to generate scientific knowledge.
 
-6. Validating AI-Driven Workflows: Providing initial proof-of-concept evidence that integrating real-time AI optimization into Bonsai workflows yields measurably more responsive and informative experiments than traditional static designs.
+6. Validating AI-Driven Workflows: Providing initial proof-of-concept evidence that LLM Bonsai nodes yield measurably more responsive and informative paradigms than conventional, static workflows.
