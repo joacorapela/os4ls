@@ -1,0 +1,19 @@
+all: application.md
+
+application.md: title.md summary.md expectedValue.md landscape.md workPlan.md goals.md
+	echo "# Title (" `wc -c < title.md` "/ 60 words )" > application.md
+	cat title.md >> application.md
+	echo "\n# Summary (" `wc -c < summary.md` "/ 3000 words)" >> application.md
+	echo "\n***Briefly describe the purpose of the proposal and the software project(s) it involves.***\n" >> application.md
+	cat summary.md >> application.md
+	echo "\n# Expected Value (" `wc -c < expectedValue.md` "/ 1500 words)" >> application.md
+	echo "\n***If the proposal is successfully funded, what does success look like? We're seeking to understand: what type of capabilities the proposal is unlocking for the scientific community; how upstream and downstream software will be improved by the proposal; how the proposed work supports or implements novel functionality for AI enablement and large-scale data analysis.***\n" >> application.md
+	cat expectedValue.md >> application.md
+	echo "\n# Landscape Analysis (" `wc -c < landscape.md` "/ 1500 words)" >> application.md
+	echo "\n***We are looking for proposals from software projects with demonstrated traction and adoption. Briefly describe other software tools that the audience for this proposal primarily uses (including proprietary alternatives, if they exist), and how the software project(s) in your proposal compare in terms of user base, adoption, functionality, and maturity relative to their target audience. You can add indicators of adoption and usage as needed. Please indicate if the software is used in AI applications and workflows.***\n" >> application.md
+	cat landscape.md >> application.md
+	echo "\n# Work Plan (" `wc -c < workPlan.md` "/ 750 words)" >> application.md
+	echo "\n***To complete this section, please download or make a copy of the [provided template](https://docs.google.com/document/d/1QeloUWQCiDwTPzZlJQ55tKHAoTHztuhIqSm90aEkuWo/edit?tab=t.0) (by selecting File->Download or File->Make a Copy), complete the required sections, and upload as a single PDF.***\n" >> application.md
+	cat workPlan.md >> application.md
+	echo "\n# Goals, Outcomes, Milestones and Deliverables (up to 5 goals)\n" >> application.md
+	cat goals.md >> application.md
