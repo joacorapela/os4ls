@@ -1,1 +1,1 @@
-1. The creation of [Bonsai.ML](https://bonsai-rx.org/machinelearning/) was supported by the Biotechnology and Biomedical Sciences Research Council award (BB/W019132/1)[https://gtr.ukri.org/projects?ref=BB%2FW019132%2F1]
+1. The creation of [Bonsai.ML](https://bonsai-rx.org/machinelearning/) was supported by the Biotechnology and Biomedical Sciences Research Council award [BB/W019132/1](https://gtr.ukri.org/projects?ref=BB%2FW019132%2F1)
