@@ -1,10 +1,9 @@
 Bonsai is the leading open-source visual reactive programming language for
-neuroscience experimental control, supporting thousands of researchers globally
-(>7,000 downloads, >1,000 citations/year [Lopes et al., 2015]). While
-conventional procedural, interpreted languages struggle with real-time
-processing of high-bandwidth, multimodal data streams, Bonsai provides an
-intuitive visual interface to a functional, compiled environment. This unique
-architecture coordinates a vast ecosystem, including Open Ephys
+neuroscience experimental control, supporting thousands of researchers
+globally. While conventional procedural, interpreted languages struggle with
+real-time processing of high-bandwidth, multimodal data streams, Bonsai
+provides an intuitive visual interface to a functional, compiled environment.
+This unique architecture coordinates a vast ecosystem, including Open Ephys
 (electrophysiology), Harp (microsecond synchronization), and Bonsai.ML
 (real-time ML). However, as workflows scale, constructing and maintaining
 graphical pipelines becomes a major engineering bottleneck. We propose an AI
@@ -27,19 +26,33 @@ Additionally, we will develop a native LLM node for Bonsai. This node will
 ingest real-time data summaries from active workflows to output live
 inferences. Instead of controlling experiments via rigid, pre-programmed rules,
 this enables adaptive experimentation guided by the broad contextual
-information processing of an AI agent, yielding fundamentally more informative
-results.
+information processing of an AI agent, yielding a fundamental new type of
+experimentation.
 
-Our long-term vision is the complete automation of hypothesis-driven scientific
-discovery. By routing multi-modal results back to the LLM, the system can
-leverage biomedical literature to interpret data, synthesize hypotheses, and
-run the next experimental iteration via a structured human-in-the-loop
-safeguard. While full closed-loop automation is beyond our current scope, this
-project delivers the foundational technical framework to make self-driving
-neurophysiology laboratories a reality.
+We will demonstrate the use of the Bonsai LLM node for the acceleration of the
+hypothesis/experiment cycle (Box et al., 2005; see its Figure 1.2
+[here](https://www.gatsby.ucl.ac.uk/~rapela/os4ls/box05-fig1.2.png)).
+Most experiments begin with a hypothesis, from which consequences are derived
+and an experiment is designed and performed to test the consequences. If the
+experimental outputs agree with the hypothesis, this hypothesis is supported
+and the cycle ends. But if important differences are found, the hypothesis is
+modified, new consequences are derived, a new experiment is devised to test
+them, and the cycle continues.
 
-Team: Joaquin Rapela (research fellow, Gatsby Unit; creator of Bonsai.ML) will
-lead implementation, consulting with Goncalo Lopes (author of Bonsai) and
-collaborating with scientists at the Sainsbury Wellcome Centre and Allen
-Institute for Neural Dynamics (e.g., Josh Siegle) to validate the MCP server
-and LLM node in live experimental rigs.
+With the use of LLMs, the time-consuming hypothesis/experiment cycles can be
+substantially accelerated. Tasks assigned to humans in this cycle (like
+deriving consequences from hypothesis, designing experiments to test these
+hypothesis, or deriving new hypothesis when experimental data does not agree
+with derived consequences) can now be assigned to LLMs, which can assist, and
+eventually substitute, human experimenters.
+
+We will build an LLM agent to assist human experimenters in the
+hypothesis/experimentation cycle. This agent will use the Bonsai MCP server to
+build new Bonsai experiments for testing consequences derived from hypothesis.
+It will also use functionality from Bonsai.ML, to extract summaries from
+behavioral (e.g., kinematics) and neurophysiological (e.g., neural latents)
+experimental recordings.
+
+Recent research has used LLMs for automatic experiment building [e.g., Elteto
+et al., 2026], but this research has nob been able to control real experiments.
+The MCP server and Bonsai LLM node will enable this control for the first time.
