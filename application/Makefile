@@ -18,7 +18,7 @@ application.md: title.md summary.md expectedValue.md landscape.md workPlan.md go
 	echo "\n# Goals, Outcomes, Milestones and Deliverables (up to 5 goals)\n" >> application.md
 	cat goals.md >> application.md
 	echo "\n# Budget Description" >> application.md
-	echo "\n## Amount Requested" >> aplication.md
+	echo "\n## Amount Requested" >> application.md
 	echo "\nEnter the amount requested in USD per year (whole numbers only) as well as the budget requested for all years. The numbers should match those described in the Budget Description to follow. Please note that for track 1, the maximum amount requested is $250,000 USD  total over two years ($125,000 USD/per year).  For track 2, the maximum amount requested is $1,000,000 total over two years($500,000 USD/per year)." >> application.md
 	echo "\nAmount for Year 1: 125000" >> application.md
 	echo "\nAmount for Year 2: 125000" >> application.md
