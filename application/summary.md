@@ -34,25 +34,24 @@ hypothesis/experiment cycle (Box et al., 2005; see its Figure 1.2
 [here](https://www.gatsby.ucl.ac.uk/~rapela/os4ls/box05-fig1.2.png)).
 Most experiments begin with a hypothesis, from which consequences are derived
 and an experiment is designed and performed to test the consequences. If the
-experimental outputs agree with the hypothesis, this hypothesis is supported
+experimental outputs agree with the consequences, the hypothesis is supported
 and the cycle ends. But if important differences are found, the hypothesis is
 modified, new consequences are derived, a new experiment is devised to test
 them, and the cycle continues.
 
-With the use of LLMs, the time-consuming hypothesis/experiment cycles can be
-substantially accelerated. Tasks assigned to humans in this cycle (like
-deriving consequences from hypothesis, designing experiments to test these
-hypothesis, or deriving new hypothesis when experimental data does not agree
-with derived consequences) can now be assigned to LLMs, which can assist, and
-eventually substitute, human experimenters.
+With the advent of LLMs, time-consuming hypothesis/experiment cycles can be
+substantially accelerated. Tasks assigned to humans in these cycles (like
+deriving consequences from hypothesis, designing experiments, or deriving new
+hypothesis) can now be assigned to LLMs, which can assist, and eventually
+substitute, human experimenters.
 
-We will build an LLM agent to assist human experimenters in the
-hypothesis/experimentation cycle. This agent will use the Bonsai MCP server to
-build new Bonsai experiments for testing consequences derived from hypothesis.
-It will also use functionality from Bonsai.ML, to extract summaries from
-behavioral (e.g., kinematics) and neurophysiological (e.g., neural latents)
-experimental recordings.
+We will build an LLM node to assist human experimenters in the
+hypothesis/experimentation cycle. This node will use the Bonsai MCP server, to
+build new Bonsai experiments, and functionality from Bonsai.ML, to extract
+summaries from behavioral (e.g., kinematics) and neurophysiological (e.g.,
+neural latents) experimental recordings.
 
-Recent research has used LLMs for automatic experiment building [e.g., Elteto
-et al., 2026], but this research has nob been able to control real experiments.
-The MCP server and Bonsai LLM node will enable this control for the first time.
+Recent research has used LLMs for automatic experiment building (e.g., Elteto
+et al., 2026), but this research has nob been able to control real behavioral
+or physiological experiments.  The MCP server and Bonsai LLM node will enable
+this control for the first time.
