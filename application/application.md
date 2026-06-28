@@ -1,7 +1,7 @@
 # Title ( 56 / 60 words )
 AI Agents for Transforming Neuroscience Experimentation
 
-# Summary ( 3563 / 3000 words)
+# Summary ( 3551 / 3000 words)
 
 ***Briefly describe the purpose of the proposal and the software project(s) it involves.***
 
@@ -38,13 +38,13 @@ experimentation.
 
 We will demonstrate the use of the Bonsai LLM node for the acceleration of the
 hypothesis/experiment cycle (Box et al., 2005; see its Figure 1.2
-[here](https://www.gatsby.ucl.ac.uk/~rapela/os4ls/box05-fig1.2.png)).
-Most experiments begin with a hypothesis, from which consequences are derived
-and an experiment is designed and performed to test the consequences. If the
+[here](https://www.gatsby.ucl.ac.uk/~rapela/os4ls/box05-fig1.2.png)).  Most
+experiments begin with a hypothesis, from which consequences are derived and an
+experiment is designed and performed to test the consequences. If the
 experimental outputs agree with the consequences, the hypothesis is supported
 and the cycle ends. But if important differences are found, the hypothesis is
-modified, new consequences are derived, a new experiment is devised to test
-them, and the cycle continues.
+modified, new consequences are derived, a new experiment is devised, and the
+cycle continues.
 
 With the advent of LLMs, time-consuming hypothesis/experiment cycles can be
 substantially accelerated. Tasks assigned to humans in these cycles (like
