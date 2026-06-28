@@ -1,7 +1,7 @@
 # Title ( 56 / 60 words )
 AI Agents for Transforming Neuroscience Experimentation
 
-# Summary ( 3551 / 3000 words)
+# Summary ( 3555 / 3000 words)
 
 ***Briefly describe the purpose of the proposal and the software project(s) it involves.***
 
@@ -60,7 +60,7 @@ neural latents) experimental recordings.
 
 Recent research has used LLMs for automatic experiment building (e.g., Elteto
 et al., 2026), but this research has not been able to control real behavioral
-or physiological experiments.  The MCP server and Bonsai LLM node will enable
+or physiological experiments.  The MCP server and the Bonsai LLM node will enable
 this control for the first time.
 
 # Expected Value ( 1426 / 1500 words)
