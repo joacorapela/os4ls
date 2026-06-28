@@ -53,5 +53,5 @@ neural latents) experimental recordings.
 
 Recent research has used LLMs for automatic experiment building (e.g., Elteto
 et al., 2026), but this research has not been able to control real behavioral
-or physiological experiments.  The MCP server and Bonsai LLM node will enable
+or physiological experiments.  The MCP server and the Bonsai LLM node will enable
 this control for the first time.
