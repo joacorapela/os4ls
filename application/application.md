@@ -59,7 +59,7 @@ summaries from behavioral (e.g., kinematics) and neurophysiological (e.g.,
 neural latents) experimental recordings.
 
 Recent research has used LLMs for automatic experiment building (e.g., Elteto
-et al., 2026), but this research has nob been able to control real behavioral
+et al., 2026), but this research has not been able to control real behavioral
 or physiological experiments.  The MCP server and Bonsai LLM node will enable
 this control for the first time.
 
