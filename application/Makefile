@@ -1,6 +1,9 @@
-all: application.md
+all: application.md budgetDescription.pdf
 
-application.md: title.md summary.md expectedValue.md landscape.md workPlan.md goals.md
+%.pdf: %.tex
+	pdflatex $<
+
+application.md: title.md summary.md expectedValue.md landscape.md workPlan.md goals.md recentFinancialSupport.md
 	echo "# Title (" `wc -c < title.md` "/ 60 words )" > application.md
 	cat title.md >> application.md
 	echo "\n# Summary (" `wc -c < summary.md` "/ 3000 words)" >> application.md
@@ -26,7 +29,7 @@ application.md: title.md summary.md expectedValue.md landscape.md workPlan.md go
 	echo "\nBudget Description:" >> application.md
 	echo "\nUpload the description of the costs to be funded by this grant at a high level in narrative and tabular form, outlining costs for personnel (including names, if known), supplies, equipment, travel, meetings/hackathons/sprints, subcontracts, other costs, and up to 10% indirect costs (excluding equipment and subcontracts). Upload as .pdf and/or .xlsx file formats." >> application.md
 	echo "\nBudget Description:" >> application.md
-	echo "\nRecent Financial Support ("wc -c < recentFinancialSupport.md` "/ 1500 words)" >> application.md
+	echo "\nRecent Financial Support (" `wc -c < recentFinancialSupport.md` "/ 1500 words)" >> application.md
 	echo "\nList active and recently completed grants (previous two calendar years - 2025 and 2026) as well as in-kind support the PI and any co-PIs have received to directly or indirectly support work related to this proposal, including the software project(s) listed in the proposal, including: their duration, total amount in USD (for grants), and source of funding (maximum 1,500 characters)" >> application.md
 	cat recentFinancialSupport.md >> application.md
 
