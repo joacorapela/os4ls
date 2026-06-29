@@ -2,3 +2,6 @@
 *.swp
 *.csh
 loi/old/*
+application/budgetDescription.*
+!application/budgetDescription.tex
+!application/budgetDescription.pdf
