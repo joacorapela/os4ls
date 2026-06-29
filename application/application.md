@@ -1,17 +1,16 @@
 # Title ( 56 / 60 words )
 AI Agents for Transforming Neuroscience Experimentation
 
-# Summary ( 2892 / 3000 words)
+# Summary ( 3555 / 3000 words)
 
 ***Briefly describe the purpose of the proposal and the software project(s) it involves.***
 
 Bonsai is the leading open-source visual reactive programming language for
-neuroscience experimental control, supporting thousands of researchers globally
-(>7,000 downloads, >1,000 citations/year [Lopes et al., 2015]). While
-conventional procedural, interpreted languages struggle with real-time
-processing of high-bandwidth, multimodal data streams, Bonsai provides an
-intuitive visual interface to a functional, compiled environment. This unique
-architecture coordinates a vast ecosystem, including Open Ephys
+neuroscience experimental control, supporting thousands of researchers
+globally. While conventional procedural, interpreted languages struggle with
+real-time processing of high-bandwidth, multimodal data streams, Bonsai
+provides an intuitive visual interface to a functional, compiled environment.
+This unique architecture coordinates a vast ecosystem, including Open Ephys
 (electrophysiology), Harp (microsecond synchronization), and Bonsai.ML
 (real-time ML). However, as workflows scale, constructing and maintaining
 graphical pipelines becomes a major engineering bottleneck. We propose an AI
@@ -34,22 +33,35 @@ Additionally, we will develop a native LLM node for Bonsai. This node will
 ingest real-time data summaries from active workflows to output live
 inferences. Instead of controlling experiments via rigid, pre-programmed rules,
 this enables adaptive experimentation guided by the broad contextual
-information processing of an AI agent, yielding fundamentally more informative
-results.
+information processing of an AI agent, yielding a fundamental new type of
+experimentation.
 
-Our long-term vision is the complete automation of hypothesis-driven scientific
-discovery. By routing multi-modal results back to the LLM, the system can
-leverage biomedical literature to interpret data, synthesize hypotheses, and
-run the next experimental iteration via a structured human-in-the-loop
-safeguard. While full closed-loop automation is beyond our current scope, this
-project delivers the foundational technical framework to make self-driving
-neurophysiology laboratories a reality.
+We will demonstrate the use of the Bonsai LLM node for the acceleration of the
+hypothesis/experiment cycle (Box et al., 2005; see its Figure 1.2
+[here](https://www.gatsby.ucl.ac.uk/~rapela/os4ls/box05-fig1.2.png)).  Most
+experiments begin with a hypothesis, from which consequences are derived and an
+experiment is designed and performed to test the consequences. If the
+experimental outputs agree with the consequences, the hypothesis is supported
+and the cycle ends. But if important differences are found, the hypothesis is
+modified, new consequences are derived, a new experiment is devised, and the
+cycle continues.
 
-Team: Joaquin Rapela (research fellow, Gatsby Unit; creator of Bonsai.ML) will
-lead implementation, consulting with Goncalo Lopes (author of Bonsai) and
-collaborating with scientists at the Sainsbury Wellcome Centre and Allen
-Institute for Neural Dynamics (e.g., Josh Siegle) to validate the MCP server
-and LLM node in live experimental rigs.
+With the advent of LLMs, time-consuming hypothesis/experiment cycles can be
+substantially accelerated. Tasks assigned to humans in these cycles (like
+deriving consequences from hypothesis, designing experiments, or deriving new
+hypothesis) can now be assigned to LLMs, which can assist, and eventually
+substitute, human experimenters.
+
+We will build an LLM node to assist human experimenters in the
+hypothesis/experimentation cycle. This node will use the Bonsai MCP server, to
+build new Bonsai experiments, and functionality from Bonsai.ML, to extract
+summaries from behavioral (e.g., kinematics) and neurophysiological (e.g.,
+neural latents) experimental recordings.
+
+Recent research has used LLMs for automatic experiment building (e.g., Elteto
+et al., 2026), but this research has not been able to control real behavioral
+or physiological experiments.  The MCP server and the Bonsai LLM node will enable
+this control for the first time.
 
 # Expected Value ( 1426 / 1500 words)
 
@@ -126,6 +138,8 @@ At least [N] downstream tools or pipelines adopt the new interface [Year 2].
 
 # Budget Description
 
+## Amount Requested
+
 Enter the amount requested in USD per year (whole numbers only) as well as the budget requested for all years. The numbers should match those described in the Budget Description to follow. Please note that for track 1, the maximum amount requested is 50,000 USD  total over two years (25,000 USD/per year).  For track 2, the maximum amount requested is ,000,000 total over two years(00,000 USD/per year).
 
 Amount for Year 1: 125000
@@ -140,7 +154,7 @@ Upload the description of the costs to be funded by this grant at a high level i
 
 Budget Description:
 
-Recent Financial Support ( 221 / 1500 words)
+Recent Financial Support (221 / 1500 words)
 
 List active and recently completed grants (previous two calendar years - 2025 and 2026) as well as in-kind support the PI and any co-PIs have received to directly or indirectly support work related to this proposal, including the software project(s) listed in the proposal, including: their duration, total amount in USD (for grants), and source of funding (maximum 1,500 characters)
 1. The creation of [Bonsai.ML](https://bonsai-rx.org/machinelearning/) was supported by the Biotechnology and Biomedical Sciences Research Council award [BB/W019132/1](https://gtr.ukri.org/projects?ref=BB%2FW019132%2F1).
