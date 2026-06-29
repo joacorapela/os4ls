@@ -1,7 +1,7 @@
 # Title ( 56 / 60 words )
 AI Agents for Transforming Neuroscience Experimentation
 
-# Summary ( 3555 / 3000 words)
+# Summary ( 3705 / 3000 words)
 
 ***Briefly describe the purpose of the proposal and the software project(s) it involves.***
 
@@ -36,32 +36,32 @@ this enables adaptive experimentation guided by the broad contextual
 information processing of an AI agent, yielding a fundamental new type of
 experimentation.
 
-We will demonstrate the use of the Bonsai LLM node for the acceleration of the
-hypothesis/experiment cycle (Box et al., 2005; see its Figure 1.2
-[here](https://www.gatsby.ucl.ac.uk/~rapela/os4ls/box05-fig1.2.png)).  Most
+We will demonstrate the use of the Bonsai LLM node and MCP server for the
+acceleration of the hypothesis/experiment cycle (Box et al., 2005). Most
 experiments begin with a hypothesis, from which consequences are derived and an
 experiment is designed and performed to test the consequences. If the
 experimental outputs agree with the consequences, the hypothesis is supported
 and the cycle ends. But if important differences are found, the hypothesis is
 modified, new consequences are derived, a new experiment is devised, and the
-cycle continues.
+cycle continues, as shown in Box et al., 2005, [Figure
+1.2](https://www.gatsby.ucl.ac.uk/~rapela/os4ls/box05-fig1.2.png).
 
 With the advent of LLMs, time-consuming hypothesis/experiment cycles can be
 substantially accelerated. Tasks assigned to humans in these cycles (like
-deriving consequences from hypothesis, designing experiments, or deriving new
-hypothesis) can now be assigned to LLMs, which can assist, and eventually
-substitute, human experimenters.
+deriving consequences from hypotheses, designing experiments, or deriving new
+hypotheses) can now be assigned to LLMs, which can assist, and eventually
+substitute, human experimenters. To achieve this, our new LLM node will use the
+Bonsai MCP server to dynamically build new Bonsai experiments, combined with
+functionality from Bonsai.ML to extract key feature summaries from behavioral
+(e.g., kinematics) and neurophysiological (e.g., neural latents) experimental
+recordings, to be fed to the Bonsai LLM agent.
 
-We will build an LLM node to assist human experimenters in the
-hypothesis/experimentation cycle. This node will use the Bonsai MCP server, to
-build new Bonsai experiments, and functionality from Bonsai.ML, to extract
-summaries from behavioral (e.g., kinematics) and neurophysiological (e.g.,
-neural latents) experimental recordings.
-
-Recent research has used LLMs for automatic experiment building (e.g., Elteto
-et al., 2026), but this research has not been able to control real behavioral
-or physiological experiments.  The MCP server and the Bonsai LLM node will enable
-this control for the first time.
+While recent pioneering work has explored LLMs for automated experiment
+generation (e.g., Éltető et al., 2026), these implementations remain
+disconnected from live, physical experimental substrates. By providing the
+essential hardware-aware runtime bridge, this project will, for the first time,
+create the infrastructure to accelerate the hypothesis/experimentation cycle in
+the life sciences.
 
 # Expected Value ( 1426 / 1500 words)
 
