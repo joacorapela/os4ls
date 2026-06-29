@@ -38,8 +38,8 @@ safeguard. While full closed-loop automation is beyond our current scope, this
 project delivers the foundational technical framework to make self-driving
 neurophysiology laboratories a reality.
 
-Team: Joaquin Rapela (research fellow, Gatsby Unit; creator of Bonsai.ML) will
-lead implementation, consulting with Goncalo Lopes (author of Bonsai) and
-collaborating with scientists at the Sainsbury Wellcome Centre and Allen
-Institute for Neural Dynamics (e.g., Josh Siegle) to validate the MCP server
-and LLM node in live experimental rigs.
+Team: Joaquin Rapela (research engineer fellow, Gatsby Unit; creator of
+Bonsai.ML) will lead implementation, consulting with Goncalo Lopes (author of
+Bonsai) and collaborating with scientists at the Sainsbury Wellcome Centre and
+Allen Institute for Neural Dynamics (e.g., Josh Siegle) to validate the MCP
+server and LLM node in live experimental rigs.
